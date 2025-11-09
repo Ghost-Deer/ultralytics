@@ -1,0 +1,9 @@
+
+path: /workspace/ultralytics-main/datasets  #数据的路径，路径根据你的实际路径来修改，以下同理
+
+test: ./test/images     #测试集路径
+train: ./train/images    #训练集路径
+val: ./val/images         #验证集路径
+
+nc: 3   # nc: 3  # 你的实际类别数
+names: ['Healthy', 'Powdery','Rust']    # 你的类别名称
