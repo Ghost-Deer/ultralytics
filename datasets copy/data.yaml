@@ -1,0 +1,16 @@
+# # 内容应调整为：
+# train: ./train/images
+# val: ./val/images  # 如果没有验证集，复制部分训练数据
+
+# nc: 3  # 你的实际类别数
+# names: ['person', 'class2', 'class3']  # 你的类别名称
+
+
+path: /workspace/ultralytics-main/datasets
+
+test: ./test/images
+train: ./train/images
+val: ./val/images
+
+nc: 3
+names: ['Healthy', 'Powdery','Rust']
